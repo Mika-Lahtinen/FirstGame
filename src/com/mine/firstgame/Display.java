@@ -1,5 +1,8 @@
 package com.mine.firstgame;
 
+import com.mine.firstgame.graphics.Render;
+import javafx.stage.Screen;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.Arrays;
@@ -11,6 +14,11 @@ public class Display extends Canvas implements Runnable {
     public static final int WIDTH = 800;
     public static final int HEIGHT = 600;
     public static final String TITLE = "FirstGame 0.01";
+    private Render render;
+
+    public Display() {
+        Render screen = new Render(WIDTH, HEIGHT);
+    }
 
     private Thread thread;
     private boolean running = false;
@@ -39,16 +47,16 @@ public class Display extends Canvas implements Runnable {
 
     public void run() {
         while (running) {
-tick();
-render();
+            tick();
+            render();
         }
     }
 
-    private void tick(){
+    private void tick() {
 
     }
 
-    private void render(){
+    private void render() {
 
     }
 
