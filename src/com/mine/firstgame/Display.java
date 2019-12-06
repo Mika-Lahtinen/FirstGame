@@ -1,11 +1,13 @@
 package com.mine.firstgame;
 
 import com.mine.firstgame.graphics.Render;
-import javafx.stage.Screen;
+import com.mine.firstgame.graphics.Screen;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.Arrays;
+import java.awt.image.BufferStrategy;
+import java.awt.image.BufferedImage;
+import java.awt.image.DataBufferInt;
 
 
 public class Display extends Canvas implements Runnable {
@@ -14,14 +16,18 @@ public class Display extends Canvas implements Runnable {
     public static final int WIDTH = 800;
     public static final int HEIGHT = 600;
     public static final String TITLE = "FirstGame 0.01";
-    private Render render;
-
-    public Display() {
-        Render screen = new Render(WIDTH, HEIGHT);
-    }
 
     private Thread thread;
+    private Screen screen;
+    private BufferedImage image;
+    private int[] pixels;
     private boolean running = false;
+
+    public Display() {
+        screen = new Screen(WIDTH, HEIGHT);
+        image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
+        pixels = ((DataBufferInt) image.getRaster().getDataBuffer()).getData();
+    }
 
     private void start() {
         if (running) {
@@ -57,7 +63,20 @@ public class Display extends Canvas implements Runnable {
     }
 
     private void render() {
+        BufferStrategy bs = this.getBufferStrategy();
+        if (bs == null) {
+            createBufferStrategy(3);
+            return;
+        }
 
+        screen.render();
+
+        System.arraycopy(screen.pixels, 0, pixels, 0, WIDTH * HEIGHT);
+
+        Graphics g = bs.getDrawGraphics();
+        g.drawImage(image, 0, 0, WIDTH, HEIGHT, null);
+        g.dispose();
+        bs.show();
     }
 
     public static void main(String[] args) {
