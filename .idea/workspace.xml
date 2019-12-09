@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0a5184c-d423-4491-a6f3-f3c8ede6200e" name="Default Changelist" comment="Finish episode 3">
-      <change afterPath="$PROJECT_DIR$/src/com/mine/firstgame/graphics/Screen.java" afterDir="false" />
+    <list default="true" id="f0a5184c-d423-4491-a6f3-f3c8ede6200e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstGame/com/mine/firstgame/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstGame/com/mine/firstgame/Display.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mine/firstgame/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mine/firstgame/Display.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mine/firstgame/graphics/Render.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mine/firstgame/graphics/Render.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mine/firstgame/graphics/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mine/firstgame/graphics/Screen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -87,7 +90,10 @@
       <option name="presentableId" value="Default" />
       <updated>1575558711269</updated>
       <workItem from="1575558716174" duration="3323000" />
-      <workItem from="1575596440454" duration="10252000" />
+      <workItem from="1575596440454" duration="10387000" />
+      <workItem from="1575709818583" duration="2039000" />
+      <workItem from="1575811405169" duration="2249000" />
+      <workItem from="1575815059952" duration="2878000" />
     </task>
     <task id="LOCAL-00001" summary="Finish episode 3">
       <created>1575638900509</created>
@@ -96,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575638900509</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish episode 4">
+      <created>1575643195266</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575643195266</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +120,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -115,49 +130,58 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish episode 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish episode 3" />
+    <MESSAGE value="Finish episode 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish episode 4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="323" y="23" key="CommitChangelistDialog2" timestamp="1575643128211">
+    <state x="315" y="88" key="#Deployment" timestamp="1575734138522">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="323" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575643128211" />
-    <state width="1340" height="206" key="GridCell.Tab.0.bottom" timestamp="1575643186128">
+    <state x="315" y="88" key="#Deployment/0.0.1440.860@0.0.1440.860" timestamp="1575734138522" />
+    <state x="403" y="156" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575811436484">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575643186128" />
-    <state width="1340" height="206" key="GridCell.Tab.0.center" timestamp="1575643186128">
+    <state x="403" y="156" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1575811436484" />
+    <state x="323" y="23" key="CommitChangelistDialog2" timestamp="1575643194230">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1575643186128" />
-    <state width="1340" height="206" key="GridCell.Tab.0.left" timestamp="1575643186128">
+    <state x="323" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575643194230" />
+    <state width="670" height="206" key="GridCell.Tab.0.bottom" timestamp="1575818137876">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1575643186128" />
-    <state width="1340" height="206" key="GridCell.Tab.0.right" timestamp="1575643186128">
+    <state width="670" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575818137876" />
+    <state width="670" height="206" key="GridCell.Tab.0.center" timestamp="1575818137876">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575643186128" />
-    <state width="1340" height="256" key="GridCell.Tab.1.bottom" timestamp="1575562965089">
+    <state width="670" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1575818137876" />
+    <state width="670" height="206" key="GridCell.Tab.0.left" timestamp="1575818137876">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575562965089" />
-    <state width="1340" height="256" key="GridCell.Tab.1.center" timestamp="1575562965089">
+    <state width="670" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1575818137876" />
+    <state width="670" height="206" key="GridCell.Tab.0.right" timestamp="1575818137876">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1575562965089" />
-    <state width="1340" height="256" key="GridCell.Tab.1.left" timestamp="1575562965089">
+    <state width="670" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575818137876" />
+    <state width="670" height="256" key="GridCell.Tab.1.bottom" timestamp="1575815048896">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1575562965089" />
-    <state width="1340" height="256" key="GridCell.Tab.1.right" timestamp="1575562965089">
+    <state width="670" height="256" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575815048896" />
+    <state width="670" height="256" key="GridCell.Tab.1.center" timestamp="1575815048896">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1575562965089" />
-    <state x="400" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1575596658612">
+    <state width="670" height="256" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1575815048896" />
+    <state width="670" height="256" key="GridCell.Tab.1.left" timestamp="1575815048895">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="400" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1575596658612" />
+    <state width="670" height="256" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1575815048895" />
+    <state width="670" height="256" key="GridCell.Tab.1.right" timestamp="1575815048896">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="670" height="256" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1575815048896" />
+    <state x="400" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1575853995790">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="400" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1575853995790" />
     <state x="515" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575638940221">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

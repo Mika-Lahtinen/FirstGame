@@ -9,13 +9,22 @@ public class Screen extends Render {
         super(width, height);
         Random random = new Random();
         test = new Render(256, 256);
-        for (int i = 0; i < 256*256; i++) {
-            test.pixels[i]=random.nextInt();
+        for (int i = 0; i < 256 * 256; i++) {
+            test.pixels[i] = random.nextInt();
         }
 
     }
 
     public void render() {
-        draw(test, 0, 0);
+        for (int i = 0; i < width * height; i++) {
+            pixels[i] = 0;
+        }
+        for (int i = 0; i < 200; i++) {
+            int animFirst = (int) (Math.sin((System.currentTimeMillis()+i) % 2000.0 / 2000 * Math.PI * 2) * 200);
+            int animSecond = (int) (Math.cos((System.currentTimeMillis()+i) % 2000.0 / 2000 * Math.PI * 2) * 200);
+
+            draw(test, (width - 256) / 2 + animFirst, (height - 256) / 2 - animSecond);
+        }
+
     }
 }
