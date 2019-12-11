@@ -1,7 +1,5 @@
 package com.mine.firstgame.graphics;
 
-import com.mine.firstgame.Display;
-
 public class Render {
     public final int width;
     public final int height;
