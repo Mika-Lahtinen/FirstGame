@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a5184c-d423-4491-a6f3-f3c8ede6200e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mine/firstgame/graphics/Render.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mine/firstgame/graphics/Render.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mine/firstgame/graphics/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mine/firstgame/graphics/Screen.java" afterDir="false" />
@@ -13,6 +15,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FirstGame" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,6 +50,13 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/ProjectsOnServers/demo" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
@@ -94,6 +106,9 @@
       <workItem from="1575709818583" duration="2039000" />
       <workItem from="1575811405169" duration="2249000" />
       <workItem from="1575815059952" duration="2878000" />
+      <workItem from="1575853946474" duration="834000" />
+      <workItem from="1575889652039" duration="1989000" />
+      <workItem from="1576071951615" duration="3485000" />
     </task>
     <task id="LOCAL-00001" summary="Finish episode 3">
       <created>1575638900509</created>
@@ -109,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575643195266</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish episode 5">
+      <created>1575854074666</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575854074666</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,37 +153,42 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish episode 3" />
     <MESSAGE value="Finish episode 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish episode 4" />
+    <MESSAGE value="Finish episode 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish episode 5" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="315" y="88" key="#Deployment" timestamp="1575734138522">
+    <state x="315" y="88" key="#Deployment" timestamp="1575894005718">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="315" y="88" key="#Deployment/0.0.1440.860@0.0.1440.860" timestamp="1575734138522" />
+    <state x="315" y="88" key="#Deployment/0.0.1440.860@0.0.1440.860" timestamp="1575894005718" />
     <state x="403" y="156" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575811436484">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="403" y="156" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1575811436484" />
-    <state x="323" y="23" key="CommitChangelistDialog2" timestamp="1575643194230">
+    <state x="323" y="23" key="CommitChangelistDialog2" timestamp="1575854073167">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="323" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575643194230" />
-    <state width="670" height="206" key="GridCell.Tab.0.bottom" timestamp="1575818137876">
+    <state x="323" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1575854073167" />
+    <state x="503" y="184" key="FileChooserDialogImpl" timestamp="1575893990347">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="670" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1575818137876" />
-    <state width="670" height="206" key="GridCell.Tab.0.center" timestamp="1575818137876">
+    <state x="503" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1575893990347" />
+    <state width="670" height="206" key="GridCell.Tab.0.bottom" timestamp="1576076638658">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="670" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1575818137876" />
-    <state width="670" height="206" key="GridCell.Tab.0.left" timestamp="1575818137876">
+    <state width="670" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1576076638658" />
+    <state width="670" height="206" key="GridCell.Tab.0.center" timestamp="1576076638658">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="670" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1575818137876" />
-    <state width="670" height="206" key="GridCell.Tab.0.right" timestamp="1575818137876">
+    <state width="670" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1576076638658" />
+    <state width="670" height="206" key="GridCell.Tab.0.left" timestamp="1576076638658">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="670" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1575818137876" />
+    <state width="670" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1576076638658" />
+    <state width="670" height="206" key="GridCell.Tab.0.right" timestamp="1576076638658">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="670" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1576076638658" />
     <state width="670" height="256" key="GridCell.Tab.1.bottom" timestamp="1575815048896">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -186,6 +213,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="515" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1575638940221" />
+    <state x="599" y="160" key="ftp.server.browser" timestamp="1575894001553">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="599" y="160" key="ftp.server.browser/0.0.1440.860@0.0.1440.860" timestamp="1575894001553" />
     <state x="94" y="39" key="new project wizard" timestamp="1575615118448">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
