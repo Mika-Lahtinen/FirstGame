@@ -19,12 +19,18 @@ public class Display extends Canvas implements Runnable {
 
     private Thread thread;
     private Screen screen;
+    private Game game;
     private BufferedImage image;
     private int[] pixels;
     private boolean running = false;
 
     public Display() {
+        Dimension size = new Dimension(WIDTH, HEIGHT);
+        setPreferredSize(size);
+        setMinimumSize(size);
+        setMaximumSize(size);
         screen = new Screen(WIDTH, HEIGHT);
+        game = new Game();
         image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
         pixels = ((DataBufferInt) image.getRaster().getDataBuffer()).getData();
     }
@@ -87,7 +93,7 @@ public class Display extends Canvas implements Runnable {
     }
 
     private void tick() {
-
+        game.tick();
     }
 
     private void render() {
@@ -97,12 +103,12 @@ public class Display extends Canvas implements Runnable {
             return;
         }
 
-        screen.render();
+        screen.render(game);
 
         System.arraycopy(screen.pixels, 0, pixels, 0, WIDTH * HEIGHT);
 
         Graphics g = bs.getDrawGraphics();
-        g.drawImage(image, 0, 0, WIDTH, HEIGHT, null);
+        g.drawImage(image, 0, 0, WIDTH+5, HEIGHT+5, null);
         g.dispose();
         bs.show();
     }
@@ -117,7 +123,7 @@ public class Display extends Canvas implements Runnable {
         kurtisFrame.setTitle(TITLE);
         kurtisFrame.setSize(WIDTH, HEIGHT);
         kurtisFrame.add(game);
-        kurtisFrame.setResizable(false);
+        kurtisFrame.setResizable(true);
         kurtisFrame.setVisible(true);
 
         System.out.println("Running......");
